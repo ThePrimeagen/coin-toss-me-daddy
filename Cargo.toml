@@ -1,0 +1,11 @@
+[package]
+name = "flip-a-coin"
+version = "0.1.0"
+edition = "2021"
+publish = ["crates-io"]
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+anyhow = "1.0.75"
+tokio = { version = "1.35.1", features = ["full"] }
